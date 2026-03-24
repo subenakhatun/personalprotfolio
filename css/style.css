@@ -1,0 +1,294 @@
+body{
+    background-color: #212529;
+}
+*{
+    margin: 0 auto;
+}
+main{
+    max-width: 1200px;
+}
+#header-navbar{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 40px 0px;
+    /* align-items: center; */
+    
+}
+#header-navbar .header-manu ul{
+    
+}
+#header-navbar .header-manu li{
+    list-style: none;
+    display: inline-block;
+}
+#header-navbar .header-manu li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 5rem 1rem;
+}
+#header-navbar .header-manu li .active{
+    color: #f9004d;
+}
+#header-navbar .header-manu li a:hover{
+    color: #f9004d;
+}
+.header-logo{
+    font-size: 26px;
+    text-transform: uppercase;
+    justify-content: left;
+}
+#slidercontent{
+    width:1120px;
+    color: #ffffff;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 50px 0px;
+    border-bottom: 1px solid #000001;
+}
+.slideRight{
+    max-width: 500px;
+    box-shadow: 10px 10px 19px #1c1e22,
+      -10px -10px 19px #262a2e;
+    /* background-color: #f9004d; */
+}
+.slideRight img{
+    /* max-width: 100%; */
+    /* height: auto; */
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.slideLeft{
+    /* display: block; */
+    /* max-width: 630px; */
+    text-align: right;
+    max-width: 620px;
+    padding: 80px 0px;
+}
+.slideLeft h4{
+    font-size: 18px;
+    font-family: var(--font-secondary);
+    color: var(--color-lightn);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    padding-bottom: 15px;
+}
+.slideLeft h1{
+    color: #f9004d;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.slideLeft p{
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-lightn);
+    opacity: 0.9;
+}
+.slideRight{
+    justify-content: right;
+}
+.skillsSocial{
+    display: inline-block;
+}
+.socail-media h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    padding: 15px 0px;
+}
+.social-icons a{
+    padding: 8px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.social-icons a:hover{
+    color: #f9004d;
+}
+/* Features section CSS */
+#features-area{
+    padding: 60px 0px;
+    width:1120px;
+    color: #ffffff;
+    border-bottom: 1px solid #000001;
+}
+#features-area .features-top-content{
+    text-align: center;
+    color: #c4cfde;
+}
+#features-area .features-top-content h4{
+    font-size: 16px;
+    color: #f9004d;
+}
+#features-area .features-top-content h1{
+    font-size: 40px;
+    padding: 9px 0px;
+}
+#features-area .features-main-content{
+    display: inline-block;
+    max-width: 300px;
+    margin: 20px 15px;
+    color: #E4E6EA;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    padding: 30px 20px;
+}
+#features-area .features-main-content .features-iteams i{
+    color: #f9004d;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+#features-area .features-main-content .features-iteams h3{
+    color: #CED0D4;
+    padding-bottom: 12px;
+    font-size: 20px;
+}
+
+/* my protfolio section start css */
+#myprotfolio{
+    padding: 60px 0px;
+    width:1120px;
+    color: #ffffff;
+    border-bottom: 1px solid #000001;
+}
+#myprotfolio .protfolio-top-content{
+    text-align: center;
+    color: #c4cfde;
+}
+#myprotfolio .protfolio-top-content h4{
+    font-size: 16px;
+    color: #f9004d;
+}
+#myprotfolio .protfolio-top-content h1{
+    font-size: 40px;
+    padding: 9px 0px;
+}
+
+#myprotfolio .protfolio-iteams{
+    display: inline-block;
+    max-width: 320px;
+    margin: 20px 10px;
+    color: #E4E6EA;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    padding: 15px;
+    border-radius: 10px;
+}
+.protfolio-iteams img{
+    width: 100%;
+    border-radius: 10px;
+}
+.protfolio-iteams .title-ratings p{
+   font-size: 12px;
+}
+.protfolio-iteams p{
+    padding: 5px 0px;
+    font-size: 16px;
+}
+.ptitle{
+   float: left;
+   color: #f9004d;
+}
+.prating{
+    text-align: right;
+}
+.prating i{
+    padding-left: 5px;
+}
+
+/* testimonail section o clients feedback section */
+#clients-feedback{
+    padding: 60px 0px;
+    width:1120px;
+    color: #ffffff;
+    border-bottom: 1px solid #000001;
+}
+#clients-feedback .cleints-top{
+    text-align: center;
+    color: #c4cfde;
+}
+#clients-feedback .cleints-top h5{
+    font-size: 16px;
+    color: #f9004d;
+}
+#clients-feedback .cleints-top h1{
+    font-size: 40px;
+    padding: 9px 0px;
+}
+#clients-feedback .clients-iteams{
+    display: flex;
+    color: #E4E6EA;
+}
+#clients-feedback .clients-iteams .clients-info{
+    max-width: 400px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    padding: 15px;
+    border-radius: 10px;
+}
+#clients-feedback .clients-iteams .clients-info .info-contents{
+    padding-top: 20px;
+}
+
+#clients-feedback .clients-iteams .clients-info .info-contents span{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f9004d;
+}
+#clients-feedback .clients-iteams .clients-info .info-contents h4{
+    font-size: 26px;
+    padding: 5px 0px;
+    color: #c4cfde;
+}
+#clients-feedback .clients-iteams .clients-info .info-contents p{
+    color: #878e99;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+.clients-descrption{
+    max-width: 670px;
+    max-height: 270px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.title-info h4{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #c4cfde;
+}
+.title-area{
+    display: inline-flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 20px;
+}
+.desciption p{
+    padding-top: 20px;
+    color: #c4cfde;
+    line-height: 25px;
+}
+.title-rating{
+    color: #FF8F3C;
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+
